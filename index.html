@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ha">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tajwidi: Nun Sakinah da Tanwin</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f5fa;--fg:#14213d;--card:#fff;--acc:#24408e;--gold:#a97b17;--mut:#566178;--line:#d9e0ee;--ok:#1d7a52;--bad:#b3261e;--chip:#e6ebf7;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1526;--fg:#e8ecf6;--card:#172038;--acc:#8fa8ee;--gold:#e0b552;--mut:#9aa6c2;--line:#2a3555;--ok:#58c995;--bad:#ff8a80;--chip:#222d4c}}
+:root[data-theme="dark"]{--bg:#0e1526;--fg:#e8ecf6;--card:#172038;--acc:#8fa8ee;--gold:#e0b552;--mut:#9aa6c2;--line:#2a3555;--ok:#58c995;--bad:#ff8a80;--chip:#222d4c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:84px}
+.ar{font-family:Amiri,"Scheherazade New","Noto Naskh Arabic",serif;direction:rtl;text-align:right;line-height:2;font-size:1.3rem}
+header{padding:20px 16px 8px}
+header h1{margin:0;font-size:1.5rem}
+header p{margin:2px 0 0;color:var(--mut);font-size:.9rem}
+main{padding:8px 16px;max-width:640px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 12px}
+.card h2{margin:0 0 6px;font-size:1.05rem}
+details.card summary{cursor:pointer;display:flex;gap:10px;align-items:center;list-style:none;font-weight:600}
+details.card summary::-webkit-details-marker{display:none}
+summary .ar{font-size:1.5rem;color:var(--acc);line-height:1.6}
+summary .n{margin-left:auto;background:var(--acc);color:var(--card);border-radius:20px;padding:0 10px;font-size:.85rem}
+.m{color:var(--mut);font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+i.c{font:700 1.2rem Amiri,serif;font-style:normal;background:var(--chip);color:var(--gold);min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border-radius:8px}
+ul{list-style:none;margin:8px 0;padding:0}
+li{display:flex;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+li .ar{font-size:1.25rem;line-height:1.7}
+button{font:inherit;color:inherit;cursor:pointer}
+.btn{background:var(--acc);color:var(--card);border:0;border-radius:10px;padding:10px 16px;font-weight:600}
+.btn.o{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+.opt{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin:8px 0;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.opt .ar{font-size:1.2rem;line-height:1.6}
+.opt.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 15%,var(--card))}
+.opt.bad{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 15%,var(--card))}
+.q{font:700 2rem Amiri,serif;text-align:center;direction:rtl;margin:10px 0;color:var(--acc)}
+.bar{height:8px;background:var(--chip);border-radius:8px;overflow:hidden;margin:6px 0 12px}
+.bar>div{height:100%;background:var(--ok)}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px))}
+nav button{flex:1;background:none;border:0;padding:6px;border-radius:10px;color:var(--mut);display:flex;flex-direction:column;align-items:center;font-size:.8rem}
+nav button .ar{font-size:1.05rem;line-height:1.5}
+nav button.on{color:var(--acc);font-weight:700;background:var(--chip)}
+.lp{display:flex;gap:6px;overflow-x:auto;margin:0 0 12px;padding-bottom:4px}.lp button{white-space:nowrap;border:1px solid var(--line);background:var(--card);border-radius:20px;padding:6px 12px;font-size:.9rem}.lp button.on{background:var(--acc);color:var(--card);border-color:var(--acc)}
+.tip{border-left:3px solid var(--gold);padding:2px 10px;margin:8px 0;background:var(--chip);border-radius:8px}.tip p{margin:4px 0}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#24408e">
+<link rel="icon" href="icons/icon-192.png">
+</head>
+<body>
+<header>
+<h1 class="ar" style="text-align:center;margin:0">أَحْكَامُ النُّونِ السَّاكِنَةِ وَالتَّنْوِينِ</h1>
+<p style="text-align:center">Darasi na 1: Hukunce-hukuncen Nun Sakinah da Tanwin</p>
+</header>
+<main id="v"></main>
+<nav>
+<button id="t-learn" onclick="go('learn')"><span class="ar">الدَّرْسُ</span>Darasi</button>
+<button id="t-quiz" onclick="go('quiz')"><span class="ar">الِاخْتِبَارُ</span>Jarrabawa</button>
+<button id="t-prog" onclick="go('prog')"><span class="ar">التَّقَدُّمُ</span>Ci gaba</button>
+</nav>
+<script>
+const L1=[
+{k:'izhar',ar:'الْإِظْهَارُ',ha:'Izhar (Bayyanawa)',n:6,L:'ء هـ ع ح غ خ',
+dAr:'نُطْقُ النُّونِ السَّاكِنَةِ أَوِ التَّنْوِينِ وَاضِحًا مِنْ مَخْرَجِهِمَا بِلَا غُنَّةٍ، عِنْدَ حُرُوفِ الْحَلْقِ السِّتَّةِ.',
+dHa:'Ana furta nun ko tanwin a fili, ba tare da ghunnah ba, idan harafin maƙogwaro ya biyo su.',
+it:[['ء','مَنْ آمَنَ','wanda ya yi imani'],['هـ','مِنْ هَادٍ','wani mai shiryarwa'],['ع','مِنْ عِلْمٍ','daga ilimi'],['ح','عَلِيمٌ حَكِيمٌ','Masani, Mai hikima'],['غ','مِنْ غِلٍّ','na ƙullata'],['خ','مِنْ خَيْرٍ','na alheri']]},
+{k:'idgham',ar:'الْإِدْغَامُ',ha:'Idgam (Haɗewa)',n:6,L:'ي ر م ل و ن',
+dAr:'الْتِقَاءُ النُّونِ السَّاكِنَةِ أَوِ التَّنْوِينِ بِحَرْفٍ مِنْ «يَرْمَلُونَ» فِي كَلِمَتَيْنِ فَيَصِيرَانِ حَرْفًا مُشَدَّدًا. بِغُنَّةٍ عِنْدَ «يَنْمُو» (٤)، وَبِغَيْرِ غُنَّةٍ عِنْدَ اللَّامِ وَالرَّاءِ (٢). وَلَا إِدْغَامَ فِي كَلِمَةٍ وَاحِدَةٍ: دُنْيَا، بُنْيَانٌ، صِنْوَانٌ، قِنْوَانٌ.',
+dHa:'Nun ko tanwin su haɗe da harafi daga «يَرْمَلُونَ» a kalmomi biyu, su zama harafi ɗaya mai shaddah. Da ghunnah a «يَنْمُو» (4), ba ghunnah a ل da ر (2). Idan a kalma ɗaya ne, ba a yin idgam (Izhar Mutlaq): دُنْيَا، بُنْيَانٌ، صِنْوَانٌ، قِنْوَانٌ.',
+it:[['ي','مَنْ يَقُولُ','wanda yake cewa','g'],['ن','مِنْ نِعْمَةٍ','ta wata ni’ima','g'],['م','مِنْ مَالٍ','na dukiya','g'],['و','مِنْ وَالٍ','wani mai taimako','g'],['ي','خَيْرًا يَرَهُ','alheri, zai gan shi','g'],['و','وُجُوهٌ يَوْمَئِذٍ','fuskoki a wannan ranar','g'],['ر','مِنْ رَبِّهِمْ','daga Ubangijinsu','n'],['ل','مِنْ لَدُنْهُ','daga gare Shi','n'],['ر','غَفُورٌ رَحِيمٌ','Mai gafara, Mai jin ƙai','n'],['ل','هُدًى لِلْمُتَّقِينَ','shiriya ga masu taƙawa','n']]},
+{k:'iqlab',ar:'الْإِقْلَابُ',ha:'Iklab (Juyawa)',n:1,L:'ب',
+dAr:'قَلْبُ النُّونِ السَّاكِنَةِ أَوِ التَّنْوِينِ مِيمًا مُخْفَاةً مَعَ الْغُنَّةِ عِنْدَ الْبَاءِ.',
+dHa:'Nun ko tanwin su koma mim a ɓoye, tare da ghunnah, idan ب ya biyo su. Ka rufe leɓuna a hankali.',
+it:[['ب','مِنْ بَعْدِ','bayan'],['ب','أَنْبِئْهُمْ','ka sanar da su'],['ب','سَمِيعٌ بَصِيرٌ','Mai ji, Mai gani']]},
+{k:'ikhfa',ar:'الْإِخْفَاءُ',ha:'Ikhfa (Ɓoyewa)',n:15,L:'ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك',
+dAr:'النُّطْقُ بِالنُّونِ السَّاكِنَةِ أَوِ التَّنْوِينِ بَيْنَ الْإِظْهَارِ وَالْإِدْغَامِ بِلَا تَشْدِيدٍ مَعَ الْغُنَّةِ، عِنْدَ بَقِيَّةِ الْحُرُوفِ الْخَمْسَةَ عَشَرَ.',
+dHa:'Ana furta nun tsakanin bayyanawa da haɗewa, ba shaddah, tare da ghunnah, a haruffa 15 da suka rage.',
+it:[['ت','جَنَّاتٍ تَجْرِي','gidajen Aljanna da koguna ke gudana ƙarƙashinsu'],['ث','مَنْثُورًا','wanda aka watsa'],['ج','أَنْجَيْنَاكُمْ','Mun tseratar da ku'],['د','مِنْ دُونِ','in banda'],['ذ','مَنْ ذَا الَّذِي','wane ne wanda'],['ز','فَأَنْزَلْنَا','sai Muka saukar'],['س','مِنْ سُلَالَةٍ','daga tsantsa'],['ش','مِنْ شَرِّ','daga sharrin'],['ص','مِنْ صَلْصَالٍ','daga busasshiyar yumɓu'],['ض','مَنْضُودٍ','wanda aka jera'],['ط','مِنْ طِينٍ','daga yumɓu'],['ظ','يَنْظُرُونَ','suna kallo'],['ف','مِنْ فَضْلِهِ','daga falalarSa'],['ق','مِنْ قَبْلُ','kafin'],['ك','مِنْ كُلِّ','daga kowane']]}
+];
+const L2=[
+{k:'mikhfa',ar:'الْإِخْفَاءُ الشَّفَوِيُّ',ha:'Ikhfa Shafawi',n:1,L:'ب',dAr:'مِيمٌ سَاكِنَةٌ بَعْدَهَا بَاءٌ: تُخْفَى مَعَ الْغُنَّةِ.',dHa:'Mim sakinah da ب ya biyo ta: ana ɓoye ta tare da ghunnah.',it:[['ب','وَمَا هُمْ بِمُؤْمِنِينَ','kuma ba su ne masu imani ba'],['ب','تَرْمِيهِمْ بِحِجَارَةٍ','suna jifan su da duwatsu']]},
+{k:'midgham',ar:'الْإِدْغَامُ الشَّفَوِيُّ',ha:'Idgam Shafawi',n:1,L:'م',dAr:'مِيمٌ سَاكِنَةٌ بَعْدَهَا مِيمٌ: تُدْغَمُ مَعَ الْغُنَّةِ.',dHa:'Mim sakinah da م ya biyo ta: a haɗe su da ghunnah.',it:[['م','لَهُمْ مَا','suna da abin da'],['م','أَمْ مَنْ','ko wane']]},
+{k:'mizhar',ar:'الْإِظْهَارُ الشَّفَوِيُّ',ha:'Izhar Shafawi',n:26,L:'ا ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل ن هـ و ي',dAr:'مِيمٌ سَاكِنَةٌ بَعْدَهَا بَقِيَّةُ الْحُرُوفِ: تَظْهَرُ بِلَا غُنَّةٍ، وَيُحْذَرُ إِخْفَاؤُهَا عِنْدَ الْوَاوِ وَالْفَاءِ.',dHa:'Mim sakinah da sauran haruffa 26: ana furta ta a fili, ba ghunnah. Ka kula kada ka ɓoye ta a و da ف.',it:[['ف','هُمْ فِيهَا','su a cikinta'],['ل','هُمْ لَا يُؤْمِنُونَ','su ba sa yin imani'],['ي','أَمْ يَقُولُونَ','ko suna cewa']]}
+];
+const L3=[
+{k:'ghunna',ar:'غُنَّةُ النُّونِ وَالْمِيمِ الْمُشَدَّدَتَيْنِ',ha:'Ghunnah (Nun da Mim masu shaddah)',n:2,L:'ن م',dAr:'كُلُّ نُونٍ أَوْ مِيمٍ مُشَدَّدَةٍ تُنْطَقُ بِغُنَّةٍ مِقْدَارُهَا حَرَكَتَانِ.',dHa:'Kowace nun ko mim mai shaddah ana furta ta da ghunnah tsawon motsi 2.',it:[['ن','إِنَّ','lalle'],['م','ثُمَّ','sa’an nan'],['ن','الْجَنَّةِ','Aljanna'],['م','عَمَّ','game da me']]},
+{k:'qalqala',ar:'الْقَلْقَلَةُ',ha:'Qalqalah (Girgiza sauti)',n:5,L:'ق ط ب ج د',dAr:'اضْطِرَابُ الصَّوْتِ عِنْدَ النُّطْقِ بِحَرْفٍ سَاكِنٍ مِنْ «قُطْبُ جَدٍّ»، وَهِيَ أَقْوَى عِنْدَ الْوَقْفِ.',dHa:'Girgizar sauti idan ɗaya daga cikin «قُطْبُ جَدٍّ» ya yi sukuni; tana ƙaruwa idan an tsaya.',it:[['ق','يَقْطَعُونَ','suna yankewa'],['ط','أَفَتَطْمَعُونَ','shin kuna kwaɗayi'],['ب','يَبْتَغُونَ','suna nema'],['ج','يَجْعَلُونَ','suna sanyawa'],['د','يَدْخُلُونَ','suna shiga']]},
+{k:'shams',ar:'اللَّامُ الشَّمْسِيَّةُ',ha:'Lam Shamsiyyah',n:14,L:'ت ث د ذ ر ز س ش ص ض ط ظ ل ن',dAr:'لَامُ «أَلْ» لَا تُنْطَقُ، وَيُشَدَّدُ الْحَرْفُ بَعْدَهَا.',dHa:'Lam ta «أَلْ» ba a furta ta; harafin da ke bayanta yana samun shaddah.',it:[['ش','الشَّمْسُ','rana'],['ن','النَّاسِ','mutane'],['ر','الرَّحْمَنِ','Mai rahama'],['د','الدِّينِ','addini']]},
+{k:'qamar',ar:'اللَّامُ الْقَمَرِيَّةُ',ha:'Lam Qamariyyah',n:14,L:'ا ب ج ح خ ع غ ف ق ك م هـ و ي',dAr:'لَامُ «أَلْ» تُنْطَقُ وَاضِحَةً.',dHa:'Lam ta «أَلْ» ana furta ta a fili.',it:[['ق','الْقَمَرُ','wata'],['ح','الْحَمْدُ','godiya'],['ك','الْكِتَابُ','littafi'],['م','الْمُؤْمِنُونَ','muminai']]}
+];
+const L4=[
+{k:'asli',ar:'الْمَدُّ الطَّبِيعِيُّ',ha:'Madd Asli (Ɗabi’i)',n:'2',L:'ا و ي',dAr:'مَدٌّ بِمِقْدَارِ حَرَكَتَيْنِ، لَا يَأْتِي بَعْدَهُ هَمْزٌ وَلَا سُكُونٌ.',dHa:'Tsawo na motsi 2; babu hamza ko sukuni bayansa.',it:[['ا','قَالَ','ya ce'],['و','يَقُولُ','yana cewa'],['ي','قِيلَ','aka ce']]},
+{k:'muttasil',ar:'الْمَدُّ الْمُتَّصِلُ',ha:'Madd Muttasil',n:'4-5',L:'ا و ي',dAr:'حَرْفُ الْمَدِّ وَالْهَمْزُ فِي كَلِمَةٍ وَاحِدَةٍ، وَيُمَدُّ أَرْبَعَ أَوْ خَمْسَ حَرَكَاتٍ.',dHa:'Harafin madd da hamza a kalma ɗaya; ana tsawaita motsi 4 ko 5.',it:[['ء','جَاءَ','ya zo'],['ء','السَّمَاءِ','sama']]},
+{k:'munfasil',ar:'الْمَدُّ الْمُنْفَصِلُ',ha:'Madd Munfasil',n:'4-5',L:'ا و ي',dAr:'حَرْفُ الْمَدِّ فِي آخِرِ كَلِمَةٍ وَالْهَمْزُ فِي أَوَّلِ الَّتِي بَعْدَهَا.',dHa:'Harafin madd a ƙarshen kalma, hamza a farkon kalma ta gaba.',it:[['ء','يَا أَيُّهَا','ya ku'],['ء','فِي أَنْفُسِكُمْ','a cikin kanku']]},
+{k:'lazim',ar:'الْمَدُّ اللَّازِمُ',ha:'Madd Lazim',n:'6',L:'ا و ي',dAr:'حَرْفُ مَدٍّ بَعْدَهُ سُكُونٌ أَصْلِيٌّ ثَابِتٌ، وَيُمَدُّ سِتَّ حَرَكَاتٍ.',dHa:'Harafin madd sai sukuni na asali; ana tsawaita motsi 6.',it:[['ا','الضَّالِّينَ','masu ɓata'],['ا','الْحَاقَّةُ','Tabbatacciya']]},
+{k:'arid',ar:'الْمَدُّ الْعَارِضُ لِلسُّكُونِ',ha:'Madd ‘Arid Lissukun',n:'2/4/6',L:'ا و ي',dAr:'حَرْفُ مَدٍّ بَعْدَهُ سُكُونٌ عَارِضٌ بِسَبَبِ الْوَقْفِ.',dHa:'Harafin madd da sukuni da ya zo saboda tsayawa; motsi 2, 4 ko 6.',it:[['ا','الْعَالَمِينَ','talikai (idan an tsaya)'],['ي','نَسْتَعِينُ','muna neman taimako (idan an tsaya)']]}
+];
+const L5=[
+{k:'jawf',ar:'الْجَوْفُ',ha:'Al-Jawf (ramin baki)',n:3,L:'ا و ي',dAr:'مِنْهُ تَخْرُجُ حُرُوفُ الْمَدِّ.',dHa:'Daga nan haruffan madd suke fita.',it:[['ا','ا','madd'],['و','و','madd'],['ي','ي','madd']]},
+{k:'halq',ar:'الْحَلْقُ',ha:'Al-Halq (maƙogwaro)',n:6,L:'ء هـ ع ح غ خ',dAr:'ثَلَاثَةُ مَوَاضِعَ: أَقْصَاهُ (ء هـ)، وَسَطُهُ (ع ح)، أَدْنَاهُ (غ خ).',dHa:'Wurare 3: ƙarshe (ء هـ), tsakiya (ع ح), kusa da baki (غ خ).',it:[['ء','ء','maƙogwaro'],['هـ','هـ','maƙogwaro'],['ع','ع','maƙogwaro'],['ح','ح','maƙogwaro'],['غ','غ','maƙogwaro'],['خ','خ','maƙogwaro']]},
+{k:'lisan',ar:'اللِّسَانُ',ha:'Al-Lisan (harshe)',n:18,L:'ق ك ج ش ي ض ل ن ر ط د ت ص ز س ظ ذ ث',dAr:'عَشَرَةُ مَوَاضِعَ لِثَمَانِيَةَ عَشَرَ حَرْفًا.',dHa:'Wurare 10 na haruffa 18.',it:[['ق','ق','harshe'],['ج','ج','harshe'],['ل','ل','harshe'],['ر','ر','harshe'],['ث','ث','harshe'],['ض','ض','harshe']]},
+{k:'shafa',ar:'الشَّفَتَانِ',ha:'Ash-Shafatan (leɓɓa)',n:4,L:'ف و ب م',dAr:'الْفَاءُ مِنْ بَاطِنِ الشَّفَةِ السُّفْلَى وَأَطْرَافِ الثَّنَايَا، وَالْبَاءُ وَالْمِيمُ وَالْوَاوُ مِنَ الشَّفَتَيْنِ.',dHa:'ف daga leɓen ƙasa da haƙora; ب م و daga leɓɓa biyu.',it:[['ف','ف','leɓɓa'],['و','و','leɓɓa'],['ب','ب','leɓɓa'],['م','م','leɓɓa']]}
+];
+const I=(a,b)=>`<div class="card"><h2>${a}</h2><p class="ar">${b[0]}</p><p>${b[1]}</p></div>`;
+const LS=[
+{id:'n',ha:'Nun & Tanwin',R:L1},
+{id:'m',ha:'Mim Sakinah',R:L2,intro:I('Mim Sakinah | الْمِيمُ السَّاكِنَةُ',['مِيمٌ خَالِيَةٌ مِنَ الْحَرَكَةِ، وَلَهَا ثَلَاثَةُ أَحْكَامٍ بِحَسَبِ مَا بَعْدَهَا.','Mim marar motsi; tana da hukunce-hukunce 3 bisa harafin da ya biyo ta.'])},
+{id:'g',ha:'Ghunnah, Qalqalah, Lam',R:L3,intro:I('Ghunnah, Qalqalah, Lam | الْغُنَّةُ وَالْقَلْقَلَةُ وَاللَّامُ',['أَحْكَامٌ قَصِيرَةٌ يَكْثُرُ وُرُودُهَا فِي الْقُرْآنِ.','Gajerun hukunce-hukunce da suke yawan zuwa a Alƙur’ani.'])},
+{id:'d',ha:'Madd',R:L4,intro:I('Madd | الْمَدُّ',['الْمَدُّ: إِطَالَةُ الصَّوْتِ بِحَرْفٍ مِنْ حُرُوفِ الْمَدِّ الثَّلَاثَةِ (ا و ي). الْحَرَكَةُ: قَدْرُ قَبْضِ الْأُصْبُعِ وَبَسْطِهَا.','Madd: tsawaita sauti da ɗaya daga haruffan madd uku (ا و ي). Motsi 1 = lokacin rufe yatsa da buɗe shi.'])},
+{id:'k',ha:'Makharij',R:L5,intro:I('Makharij | الْمَخَارِجُ',['مَخَارِجُ الْحُرُوفِ: مَوَاضِعُ خُرُوجِهَا، وَهِيَ سَبْعَةَ عَشَرَ مَخْرَجًا فِي خَمْسَةِ مَوَاضِعَ: الْجَوْفُ وَالْحَلْقُ وَاللِّسَانُ وَالشَّفَتَانِ وَالْخَيْشُومُ (لِلْغُنَّةِ).','Makharij: wuraren fitar haruffa, 17 a manyan wurare 5: ramin baki, maƙogwaro, harshe, leɓɓa da hanci (don ghunnah).'])}
+];
+L4.push(
+{k:'liin',ar:'مَدُّ اللِّينِ',ha:'Madd Liin',n:'2/4/6',L:'و ي',dAr:'وَاوٌ أَوْ يَاءٌ سَاكِنَةٌ قَبْلَهُمَا فَتْحٌ، وَيُمَدُّ عِنْدَ الْوَقْفِ.',dHa:'Waw ko ya sakinah bayan fatha; ana tsawaita su idan an tsaya.',it:[['و','خَوْفٍ','tsoro'],['ي','بَيْتٍ','gida']]},
+{k:'badal',ar:'مَدُّ الْبَدَلِ',ha:'Madd Badal',n:'2',L:'ء',dAr:'هَمْزٌ قَبْلَ حَرْفِ مَدٍّ فِي كَلِمَةٍ وَاحِدَةٍ، وَيُمَدُّ حَرَكَتَيْنِ.',dHa:'Hamza kafin harafin madd a kalma ɗaya; motsi 2.',it:[['ء','آمَنُوا','sun yi imani'],['ء','إِيمَانًا','imani'],['ء','أُوتُوا','an ba su']]},
+{k:'silah',ar:'صِلَةُ هَاءِ الضَّمِيرِ',ha:'Silah Sughra',n:'2',L:'هـ',dAr:'هَاءُ الضَّمِيرِ بَيْنَ مُتَحَرِّكَيْنِ وَبَعْدَهَا غَيْرُ هَمْزٍ: تُوصَلُ بِمَدٍّ حَرَكَتَيْنِ.',dHa:'Ha ta maɗaucin suna tsakanin harafai masu motsi, ba hamza bayanta: a tsawaita ta motsi 2.',it:[['هـ','إِنَّهُ كَانَ','lalle shi ya kasance'],['هـ','وَلَهُ مَا','kuma yana da abin da']]});
+const L6=[
+{k:'tafkhim',ar:'تَفْخِيمُ الرَّاءِ',ha:'Tafkhim (Ra’ mai kauri)',n:1,L:'ر',dAr:'تُفَخَّمُ الرَّاءُ إِذَا كَانَتْ مَفْتُوحَةً أَوْ مَضْمُومَةً، أَوْ سَاكِنَةً بَعْدَ فَتْحٍ أَوْ ضَمٍّ.',dHa:'Ana furta ر da kauri idan tana da fatha ko damma, ko sakinah bayan fatha ko damma.',it:[['ر','رَبِّ','Ubangiji'],['ر','رُسُلٌ','manzanni'],['ر','أَرْسَلَ','ya aika'],['ر','يَرْجِعُونَ','suna komawa']]},
+{k:'tarqiq',ar:'تَرْقِيقُ الرَّاءِ',ha:'Tarqiq (Ra’ siriri)',n:1,L:'ر',dAr:'تُرَقَّقُ الرَّاءُ إِذَا كَانَتْ مَكْسُورَةً، أَوْ سَاكِنَةً بَعْدَ كَسْرٍ، وَيُسْتَثْنَى مَا إِذَا جَاءَ بَعْدَهَا حَرْفُ اسْتِعْلَاءٍ.',dHa:'Ana furta ر siriri idan tana da kasra, ko sakinah bayan kasra; banda idan harafin isti’la ya biyo ta.',it:[['ر','رِجَالٌ','mazaje'],['ر','فِرْعَوْنَ','Fir’auna'],['ر','مِرْيَةٍ','shakka']]}
+];
+const L7=[
+{k:'lamtaf',ar:'تَفْخِيمُ لَامِ اللَّهِ',ha:'Tafkhim na Lam',n:1,L:'ل',dAr:'تُفَخَّمُ لَامُ لَفْظِ الْجَلَالَةِ بَعْدَ فَتْحٍ أَوْ ضَمٍّ.',dHa:'Ana furta lam ta sunan Allah da kauri bayan fatha ko damma.',it:[['ل','قَالَ اللَّهُ','Allah ya ce'],['ل','رَسُولُ اللَّهِ','Manzon Allah']]},
+{k:'lamtar',ar:'تَرْقِيقُ لَامِ اللَّهِ',ha:'Tarqiq na Lam',n:1,L:'ل',dAr:'تُرَقَّقُ لَامُ لَفْظِ الْجَلَالَةِ بَعْدَ كَسْرٍ.',dHa:'Ana furta lam ta sunan Allah siriri bayan kasra.',it:[['ل','بِسْمِ اللَّهِ','da sunan Allah'],['ل','لِلَّهِ','na Allah']]}
+];
+const L8=[
+{k:'istila',ar:'الِاسْتِعْلَاءُ',ha:'Isti’la (Kauri)',n:7,L:'خ ص ض غ ط ق ظ',dAr:'حُرُوفُ الِاسْتِعْلَاءِ سَبْعَةٌ يَجْمَعُهَا «خُصَّ ضَغْطٍ قِظْ»، وَتُنْطَقُ مُفَخَّمَةً.',dHa:'Haruffa 7 da ake furtawa da kauri: «خُصَّ ضَغْطٍ قِظْ».',it:[['خ','خ','kauri'],['ص','ص','kauri'],['ض','ض','kauri'],['غ','غ','kauri'],['ظ','ظ','kauri']]},
+{k:'hams',ar:'الْهَمْسُ',ha:'Hams (Numfashi ya ci gaba)',n:10,L:'ف ح ث ه ش خ ص س ك ت',dAr:'جَرَيَانُ النَّفَسِ عِنْدَ النُّطْقِ، وَحُرُوفُهُ عَشَرَةٌ يَجْمَعُهَا «فَحَثَّهُ شَخْصٌ سَكَتَ».',dHa:'Numfashi yana ci gaba lokacin furta su; haruffa 10: «فَحَثَّهُ شَخْصٌ سَكَتَ».',it:[['ف','ف','hams'],['ح','ح','hams'],['ث','ث','hams'],['ه','ه','hams'],['ش','ش','hams'],['س','س','hams']]},
+{k:'shidda',ar:'الشِّدَّةُ',ha:'Shiddah (Sauti ya tsaya)',n:8,L:'ء ج د ك ق ط ب ت',dAr:'انْحِبَاسُ الصَّوْتِ عِنْدَ النُّطْقِ، وَحُرُوفُهَا ثَمَانِيَةٌ يَجْمَعُهَا «أَجِدُكَ قَطَبْتَ».',dHa:'Sauti yana tsayawa lokacin furta su; haruffa 8: «أَجِدُكَ قَطَبْتَ». Wasu haruffa suna cikin sifofi fiye da ɗaya.',it:[['ء','ء','shiddah'],['ج','ج','shiddah'],['د','د','shiddah'],['ب','ب','shiddah']]}
+];
+const L9=[
+{k:'wstop',ar:'عَلَامَاتُ الْوَقْفِ',ha:'Alamomin tsayawa',n:3,L:'مـ ط قلى',dAr:'مـ: وَقْفٌ لَازِمٌ، ط: وَقْفٌ مُطْلَقٌ، قلى: الْوَقْفُ أَوْلَى.',dHa:'مـ: tsayawa wajibi; ط: tsayawa mai kyau; قلى: tsayawa ya fi ci gaba.',it:[['مـ','مـ','tsayawa wajibi'],['ط','ط','tsayawa mai kyau'],['قلى','قلى','tsayawa ya fi']]},
+{k:'wallow',ar:'عَلَامَاتُ الْجَوَازِ',ha:'Alamomin halacci',n:3,L:'ج ز صلى',dAr:'ج: جَائِزٌ، ز: مُجَوَّزٌ، صلى: الْوَصْلُ أَوْلَى.',dHa:'ج: ana iya tsayawa ko a ci gaba; ز: ana iya tsayawa amma ba da ƙarfi ba; صلى: ci gaba ya fi.',it:[['ج','ج','ana iya tsayawa ko ci gaba'],['ز','ز','ana iya tsayawa'],['صلى','صلى','ci gaba ya fi']]},
+{k:'wnot',ar:'لَا تَقِفْ',ha:'Kada ka tsaya',n:1,L:'لا',dAr:'عَلَامَةُ «لَا» تَعْنِي: لَا تَقِفْ عِنْدَهَا.',dHa:'Alamar «لا» tana nufin: kada ka tsaya a nan.',it:[['لا','لا','kada ka tsaya']]}
+];
+LS.push(
+{id:'r',ha:'Ra’',R:L6,intro:I('Ra’ | أَحْكَامُ الرَّاءِ',['لِلرَّاءِ حَالَتَانِ: التَّفْخِيمُ وَالتَّرْقِيقُ، بِحَسَبِ حَرَكَتِهَا وَمَا قَبْلَهَا.','Ra’ tana da yanayi biyu: kauri ko siriri, bisa motsinta da abin da ke gabanta.'])},
+{id:'a',ha:'Lam na Allah',R:L7,intro:I('Lam na Allah | لَامُ لَفْظِ الْجَلَالَةِ',['حُكْمُهَا يَتْبَعُ الْحَرَكَةَ الَّتِي قَبْلَهَا.','Hukuncinta ya dogara da motsin da ke gabanta.'])},
+{id:'s',ha:'Sifat',R:L8,intro:I('Sifat | صِفَاتُ الْحُرُوفِ',['صِفَاتُ الْحُرُوفِ: كَيْفِيَّةٌ تَعْرِضُ لِلْحَرْفِ عِنْدَ النُّطْقِ بِهِ.','Sifat: yanayin da harafi yake da shi lokacin furta shi.'])},
+{id:'w',ha:'Waqf',R:L9,intro:I('Waqf | الْوَقْفُ وَالِابْتِدَاءُ',['الْوَقْفُ: قَطْعُ الصَّوْتِ عَلَى الْكَلِمَةِ زَمَنًا يُتَنَفَّسُ فِيهِ. وَالِابْتِدَاءُ: الشُّرُوعُ فِي الْقِرَاءَةِ بَعْدَهُ، وَيَكُونُ بِمَا يَصِحُّ مَعْنَاهُ.','Waqf: tsayawa a kalma don numfashi. Ibtida’: sake farawa bayan tsayawa, a wurin da ma’ana ta inganta.'])}
+);
+L4.push(
+{k:'kubra',ar:'صِلَةُ الْهَاءِ الْكُبْرَى',ha:'Silah Kubra',n:'4-5',L:'هـ',dAr:'هَاءُ الضَّمِيرِ بَيْنَ مُتَحَرِّكَيْنِ وَبَعْدَهَا هَمْزٌ: تُوصَلُ بِمَدٍّ أَرْبَعَ أَوْ خَمْسَ حَرَكَاتٍ.',dHa:'Ha ta maɗaucin tsakanin harafai masu motsi, hamza bayanta: tsawaita motsi 4 ko 5.',it:[['هـ','إِنَّهُ أَوَّابٌ','lalle shi mai komawa ne ga Allah'],['هـ','مَالَهُ أَخْلَدَهُ','dukiyarsa ta dawwamar da shi']]},
+{k:'farqi',ar:'مَدُّ الْفَرْقِ',ha:'Madd Farqi',n:'6',L:'ء',dAr:'هَمْزَةُ اسْتِفْهَامٍ قَبْلَ هَمْزَةِ وَصْلٍ فِي «أَلْ»: تُمَدُّ سِتَّ حَرَكَاتٍ لِلْفَرْقِ بَيْنَ الِاسْتِفْهَامِ وَالْخَبَرِ.',dHa:'Hamzar tambaya kafin hamzat wasl ta «أَلْ»: ana tsawaita motsi 6 don bambanta tambaya da labari.',it:[['ء','آللَّهُ أَذِنَ لَكُمْ','shin Allah ne ya yi muku izini'],['ء','آلذَّكَرَيْنِ','shin su biyun maza']]});
+L6[1].it.push(['ر','قَدِيرٌ','Mai iko (idan an tsaya)']);
+const L10=[
+{k:'mithl',ar:'الْمُتَمَاثِلَانِ',ha:'Mutamathilayn',n:'•',L:'ب ب · ت ت',dAr:'حَرْفَانِ مُتَّفِقَانِ مَخْرَجًا وَصِفَةً، الْأَوَّلُ سَاكِنٌ وَالثَّانِي مُتَحَرِّكٌ: يُدْغَمُ الْأَوَّلُ فِي الثَّانِي.',dHa:'Haruffa biyu iri ɗaya, na farko sakinah: a haɗa su.',it:[['ب','اذْهَبْ بِكِتَابِي','tafi da wasiƙata'],['ت','رَبِحَتْ تِجَارَتُهُمْ','ciniki ya riba']]},
+{k:'jans',ar:'الْمُتَجَانِسَانِ',ha:'Mutajanisayn',n:'•',L:'ت د · ت ط · ذ ظ · ث ذ',dAr:'حَرْفَانِ مُتَّفِقَانِ مَخْرَجًا وَمُخْتَلِفَانِ صِفَةً: يُدْغَمُ الْأَوَّلُ السَّاكِنُ فِي الثَّانِي.',dHa:'Haruffa masu makwafa ɗaya amma sifa daban: na farko sakinah ya haɗe da na biyu.',it:[['د','قَدْ تَبَيَّنَ','ya bayyana'],['ت','وَدَّتْ طَائِفَةٌ','wata ɗariku ta so'],['ت','أَثْقَلَتْ دَعَوَا','suka yi nauyi suka roka']]},
+{k:'qarib',ar:'الْمُتَقَارِبَانِ',ha:'Mutaqaribayn',n:'•',L:'ل ر · ق ك',dAr:'حَرْفَانِ مُتَقَارِبَانِ مَخْرَجًا أَوْ صِفَةً: يُدْغَمُ الْأَوَّلُ السَّاكِنُ فِي الثَّانِي.',dHa:'Haruffa kusa da juna a makwafa ko sifa: na farko sakinah ya haɗe da na biyu.',it:[['ل','قُلْ رَبِّ','ka ce: Ubangijina'],['ل','بَلْ رَفَعَهُ','a’a, Ya ɗaukaka shi'],['ق','نَخْلُقْكُمْ','Mun halicce ku']]}
+];
+const L11=[
+{k:'hwd',ar:'الِابْتِدَاءُ بِالضَّمِّ',ha:'Farawa da damma',n:'•',L:'ا',dAr:'يُبْدَأُ بِهَمْزَةِ الْوَصْلِ مَضْمُومَةً إِذَا كَانَ ثَالِثُ الْفِعْلِ مَضْمُومًا ضَمًّا أَصْلِيًّا.',dHa:'Ana fara da hamzat wasl mai damma idan harafi na uku na aikatau yana da damma.',it:[['ا','اُنْظُرْ','ka duba'],['ا','اُدْعُ','ka kira']]},
+{k:'hwk',ar:'الِابْتِدَاءُ بِالْكَسْرِ',ha:'Farawa da kasra',n:'•',L:'ا',dAr:'يُبْدَأُ بِهَا مَكْسُورَةً فِي غَيْرِ ذَلِكَ مِنَ الْأَفْعَالِ وَفِي الْأَسْمَاءِ.',dHa:'Ana fara ta da kasra a sauran aikatau da kuma sunaye.',it:[['ا','اِهْدِنَا','ka shiryar da mu'],['ا','اِسْمٌ','suna']]},
+{k:'hwf',ar:'الِابْتِدَاءُ بِالْفَتْحِ',ha:'Farawa da fatha',n:'•',L:'ا',dAr:'يُبْدَأُ بِهَمْزَةِ «أَلْ» مَفْتُوحَةً.',dHa:'Ana fara hamzar «أَلْ» da fatha.',it:[['ا','الْحَمْدُ','godiya'],['ا','الرَّحْمَٰنُ','Mai rahama']]}
+];
+const L12=[
+{k:'shd',ar:'الشِّدَّةُ',ha:'Shiddah',n:8,L:'ء ج د ك ق ط ب ت',dAr:'انْحِبَاسُ الصَّوْتِ كُلِّيًّا، وَيَجْمَعُهَا «أَجِدُكَ قَطَبْتَ».',dHa:'Sauti ya tsaya gaba ɗaya: «أَجِدُكَ قَطَبْتَ».',it:[['ء','ء','shiddah'],['ج','ج','shiddah'],['د','د','shiddah'],['ب','ب','shiddah']]},
+{k:'twst',ar:'التَّوَسُّطُ',ha:'Tawassut',n:5,L:'ل ن ع م ر',dAr:'جَرَيَانٌ جُزْئِيٌّ لِلصَّوْتِ بَيْنَ الشِّدَّةِ وَالرَّخَاوَةِ، وَيَجْمَعُهَا «لِنْ عُمَرْ».',dHa:'Sauti tsakanin tsayawa da gudana: «لِنْ عُمَرْ».',it:[['ل','ل','tawassut'],['ن','ن','tawassut'],['ع','ع','tawassut'],['م','م','tawassut'],['ر','ر','tawassut']]},
+{k:'rkh',ar:'الرَّخَاوَةُ',ha:'Rakhawah',n:15,L:'ث ح خ ذ ز س ش ص ض ظ غ ف ه و ي',dAr:'جَرَيَانُ الصَّوْتِ عِنْدَ النُّطْقِ، وَهِيَ بَقِيَّةُ الْحُرُوفِ.',dHa:'Sauti yana gudana: sauran haruffa 15.',it:[['ث','ث','rakhawah'],['ح','ح','rakhawah'],['ذ','ذ','rakhawah'],['ز','ز','rakhawah'],['س','س','rakhawah'],['ش','ش','rakhawah'],['ف','ف','rakhawah']]}
+];
+const L13=[
+{k:'itb',ar:'الْإِطْبَاقُ',ha:'Itbaq',n:4,L:'ص ض ط ظ',dAr:'انْطِبَاقُ اللِّسَانِ عَلَى الْحَنَكِ الْأَعْلَى عِنْدَ النُّطْقِ.',dHa:'Harshe yana mannewa da sama a baki lokacin furta su.',it:[['ص','ص','itbaq'],['ض','ض','itbaq'],['ط','ط','itbaq'],['ظ','ظ','itbaq']]},
+{k:'inf',ar:'الِانْفِتَاحُ',ha:'Infitah',n:24,L:'ا ب ت ث ج ح خ د ذ ر ز س ش ع غ ف ق ك ل م ن هـ و ي',dAr:'عَدَمُ انْطِبَاقِ اللِّسَانِ عَلَى الْحَنَكِ، وَهِيَ بَقِيَّةُ الْحُرُوفِ.',dHa:'Harshe ba ya mannewa da sama: sauran haruffa 24.',it:[['ب','ب','infitah'],['ج','ج','infitah'],['ك','ك','infitah'],['م','م','infitah'],['ل','ل','infitah']]}
+];
+LS.push(
+{id:'t',ha:'Idgam na haruffa 2',R:L10,intro:I('Idgam | الْإِدْغَامُ الصَّغِيرُ',['أَنْ يَلْتَقِيَ حَرْفَانِ، الْأَوَّلُ سَاكِنٌ وَالثَّانِي مُتَحَرِّكٌ، فَيُدْغَمُ الْأَوَّلُ فِي الثَّانِي.','Idan haruffa biyu suka haɗu, na farko sakinah na biyu mai motsi, ana haɗa su.'])},
+{id:'h',ha:'Hamzat Wasl',R:L11,intro:I('Hamzat Wasl | هَمْزَةُ الْوَصْلِ',['تَثْبُتُ ابْتِدَاءً وَتَسْقُطُ دَرْجًا، وَحَرَكَتُهَا عِنْدَ الِابْتِدَاءِ بِحَسَبِ مَا بَعْدَهَا.','Tana bayyana idan an fara karatu da ita, tana faɗuwa idan ana ci gaba.'])},
+{id:'u',ha:'Sifat 2',R:L12,intro:I('Sifat 2 | الشِّدَّةُ وَالتَّوَسُّطُ وَالرَّخَاوَةُ',['هَذِهِ الْأَقْسَامُ الثَّلَاثَةُ تَشْمَلُ الْحُرُوفَ كُلَّهَا بِلَا تَدَاخُلٍ.','Waɗannan sassa 3 suna ɗauke da dukkan haruffa ba tare da haɗuwa ba.'])},
+{id:'v',ha:'Sifat 3',R:L13,intro:I('Sifat 3 | الْإِطْبَاقُ وَالِانْفِتَاحُ',['كُلُّ الْحُرُوفِ إِمَّا مُطْبَقَةٌ وَإِمَّا مُنْفَتِحَةٌ.','Kowane harafi ko dai mai itbaq ne ko mai infitah.'])}
+);
+const E=(L,i,x,more)=>{L[i].x=x;L[i].it.push(...more)};
+E(L1,0,['كَيْفِيَّةُ النُّطْقِ: أَخْرِجِ النُّونَ وَاضِحَةً مِنْ مَخْرَجِهَا ثُمَّ انْطِقْ حَرْفَ الْحَلْقِ مُبَاشَرَةً، بِلَا سَكْتٍ وَلَا غُنَّةٍ زَائِدَةٍ. وَالْخَطَأُ الشَّائِعُ: إِخْفَاءُ النُّونِ.','Yadda ake furtawa: ka furta nun a fili daga makwafarta, sannan ka koma harafin maƙogwaro nan take, ba tsayawa ko ƙarin ghunnah. Kuskuren da ake yawan yi: ɓoye nun kamar ikhfa.'],[['ء','كُلٌّ آمَنَ','kowa ya yi imani'],['ه','إِنْ هُوَ','shi ba komai ba ne'],['ه','جُرُفٍ هَارٍ','gaɓar da ke rushewa'],['ع','مِنْ عِنْدِ اللَّهِ','daga wurin Allah'],['ع','عَذَابٌ عَظِيمٌ','azaba mai girma'],['ح','مِنْ حَيْثُ','daga inda'],['ح','غَفُورٌ حَلِيمٌ','Mai gafara, Mai haƙuri'],['غ','مِنْ غَيْرِ','ba tare da'],['خ','مِنْ خَوْفٍ','daga tsoro'],['خ','عَلِيمٌ خَبِيرٌ','Masani, Mai labari']]);
+E(L1,1,['نَصِيحَةٌ: فِي «يَنْمُو» لَا تَنْطِقِ النُّونَ، بَلْ شَدِّدِ الْحَرْفَ التَّالِيَ وَأَمْسِكْ غُنَّةً حَرَكَتَيْنِ. وَفِي اللَّامِ وَالرَّاءِ شَدِّدْ بِلَا غُنَّةٍ. وَالْخَطَأُ الشَّائِعُ: إِظْهَارُ النُّونِ.','Shawara: a «يَنْمُو» kada ka furta nun, sai ka sa shaddah a harafin da ke biye ka riƙe ghunnah motsi 2. A ل da ر ka sa shaddah ba ghunnah. Kuskuren da ake yawan yi: bayyana nun.'],[['ي','مَنْ يَعْمَلْ','wanda ya yi','g'],['ن','مِنْ نَاصِرٍ','wani mai taimako','g'],['م','مِنْ مَاءٍ','daga ruwa','g'],['و','مِنْ وَرَائِهِمْ','daga bayansu','g'],['ر','مِنْ رَحْمَةٍ','daga rahama','n'],['ل','خَيْرٌ لَكُمْ','alheri a gare ku','n']]);
+E(L1,2,['عِنْدَ الْبَاءِ أَطْبِقِ الشَّفَتَيْنِ بِرِفْقٍ، وَاقْلِبِ النُّونَ مِيمًا مُخْفَاةً، وَأَمْسِكْ غُنَّةً حَرَكَتَيْنِ، وَلَا تُشَدِّدِ الْمِيمَ وَلَا تُظْهِرِ النُّونَ.','A gaban ب ka haɗa leɓɓa a hankali, ka juya nun zuwa mim a ɓoye, ka riƙe ghunnah motsi 2. Kada ka sa shaddah a mim, kada ka bayyana nun.'],[['ب','مِنْ بَيْنِ','daga tsakanin'],['ب','يُنْبِتُ','yana tsirowa'],['ب','عَلِيمٌ بِمَا','Masani game da abin da']]);
+E(L1,3,['يَقْتَرِبُ اللِّسَانُ مِنْ مَخْرَجِ الْحَرْفِ التَّالِي دُونَ أَنْ يَلْتَصِقَ بِهِ، مَعَ غُنَّةٍ حَرَكَتَيْنِ. وَيُفَخَّمُ الْإِخْفَاءُ عِنْدَ حُرُوفِ الِاسْتِعْلَاءِ (ص ض ط ظ ق) وَيُرَقَّقُ عِنْدَ الْبَاقِي.','Harshe yana kusantar makwafar harafin da ke biye ba tare da ya manne ba, tare da ghunnah motsi 2. Ikhfa yana da kauri a ص ض ط ظ ق, siriri a sauran.'],[['ت','كُنْتُمْ','kun kasance'],['ث','أُنْثَى','mace'],['ج','مَنْ جَاءَ','wanda ya zo'],['د','أَنْدَادًا','abokan tarayya'],['ذ','مُنْذِرٌ','mai gargaɗi'],['ز','أَنْزَلَ','ya saukar'],['س','إِنْسَانٌ','mutum'],['ش','يَنْشُرُ','yana shimfiɗawa'],['ص','يَنْصُرُكُمْ','yana taimakon ku'],['ض','مَنْ ضَلَّ','wanda ya ɓace'],['ط','يَنْطِقُونَ','suna magana'],['ظ','مِنْ ظَهِيرٍ','wani mai taimako'],['ف','أَنْفُسَكُمْ','kanku'],['ك','مَنْ كَانَ','wanda ya kasance']]);
+E(L2,0,['يُنْطَقُ بِإِطْبَاقِ الشَّفَتَيْنِ بِرِفْقٍ مَعَ غُنَّةٍ حَرَكَتَيْنِ، وَلَا تُشَدَّدِ الْمِيمُ.','Ana furtawa da haɗa leɓɓa a hankali tare da ghunnah motsi 2; kada a sa shaddah a mim.'],[['ب','وَمَنْ يَعْتَصِمْ بِاللَّهِ','wanda ya yi riko da Allah'],['ب','هُمْ بَارِزُونَ','su bayyanannu ne']]);
+E(L2,1,['تُدْغَمُ الْمِيمُ فِي الْمِيمِ مَعَ غُنَّةٍ مُشَدَّدَةٍ حَرَكَتَيْنِ، وَيُسَمَّى إِدْغَامًا مِثْلَيْنِ صَغِيرًا.','Ana haɗa mim da mim tare da ghunnah mai shaddah motsi 2; ana kiransa Idgam Mithlayn Saghir.'],[['م','كَمْ مِنْ','yawan'],['م','لَكُمْ مَا','kuna da abin da'],['م','وَهُمْ مُهْتَدُونَ','su masu shiriya'] ]);
+E(L2,2,['أَظْهِرِ الْمِيمَ وَاضِحَةً مِنَ الشَّفَتَيْنِ، وَاحْذَرْ إِخْفَاءَهَا إِذَا جَاءَ بَعْدَهَا وَاوٌ أَوْ فَاءٌ لِقُرْبِ الْمَخْرَجِ.','Ka bayyana mim a fili daga leɓɓa; ka kula kada ka ɓoye ta idan و ko ف sun biyo ta, saboda makwafarsu na kusa.'],[['ء','عَلَيْهِمْ ءَأَنْذَرْتَهُمْ','ko ka gargaɗe su'],['و','هُمْ وَأَزْوَاجُهُمْ','su da matansu']]);
+E(L3,0,['تَظْهَرُ الْغُنَّةُ فِي النُّونِ وَالْمِيمِ الْمُشَدَّدَتَيْنِ وُجُوبًا وَهِيَ أَكْمَلُ مَرَاتِبِ الْغُنَّةِ.','Ghunnah tana wajaba a nun da mim masu shaddah kuma ita ce mafi cikar ghunnah.'],[['ن','إِنَّا','lalle mu'],['م','أُمَّةً','al’umma'],['ن','النَّاسِ','mutane']]);
+E(L3,1,['لَهَا مَرْتَبَتَانِ: صُغْرَى فِي وَسَطِ الْكَلِمَةِ أَوِ الْوَصْلِ، وَكُبْرَى عِنْدَ الْوَقْفِ عَلَى الْحَرْفِ.','Tana da matakai 2: ƙarama a tsakiyar kalma ko a ci gaba, babba idan an tsaya a kan harafin.'],[['ق','الْفَلَقِ','tsagewar asuba (idan an tsaya)'],['د','أَحَدٌ','ɗaya (idan an tsaya)']]);
+E(L3,2,['الْحُرُوفُ الشَّمْسِيَّةُ يَجْمَعُهَا: «طِبْ ثُمَّ صِلْ رَحِمًا تَفُزْ ضِفْ ذَا نِعَمْ دَعْ سُوءَ ظَنٍّ زُرْ شَرِيفًا لِلْكَرَمْ».','Haruffan shamsiyyah ana tuna su da baitin: «طِبْ ثُمَّ صِلْ رَحِمًا تَفُزْ ضِفْ ذَا نِعَمْ دَعْ سُوءَ ظَنٍّ زُرْ شَرِيفًا لِلْكَرَمْ».'],[['ت','التَّوْبَةُ','tuba'],['ص','الصَّلَاةَ','sallah'],['ل','اللَّيْلِ','dare'],['س','السَّمَاءِ','sama']]);
+E(L3,3,['الْحُرُوفُ الْقَمَرِيَّةُ يَجْمَعُهَا: «ابْغِ حَجَّكَ وَخَفْ عَقِيمَهُ».','Haruffan qamariyyah ana tuna su da: «ابْغِ حَجَّكَ وَخَفْ عَقِيمَهُ».'],[['ب','الْبَيْتِ','gida'],['ع','الْعَالَمِينَ','talikai'],['ف','الْفَجْرِ','asuba'],['ي','الْيَوْمِ','rana']]);
+E(L4,0,['مِقْدَارُهُ حَرَكَتَانِ تَقْرِيبًا، أَيْ قَدْرَ قَبْضِ الْإِصْبَعِ وَبَسْطِهِ، وَلَا يَجُوزُ الزِّيَادَةُ عَلَيْهِ وَلَا النَّقْصُ.','Tsawonsa motsi 2, kamar rufe yatsa da buɗe shi; ba a ƙara ko rage.'],[['ا','مَالِكِ','Mamallaki'],['ي','الرَّحِيمِ','Mai jin ƙai'],['ا','الصِّرَاطَ','hanya']]);
+E(L4,1,['يَجِبُ مَدُّهُ بِاتِّفَاقِ الْقُرَّاءِ، وَلَا يَجُوزُ قَصْرُهُ.','Wajibi ne a tsawaita shi bisa yarjejeniyar malaman karatu; ba a gajarta shi.'],[['ء','الْمَلَائِكَةُ','mala’iku'],['ء','جِيءَ','aka kawo'],['ء','سُوءٌ','mugun abu']]);
+E(L4,2,['فِي رِوَايَةِ حَفْصٍ يُمَدُّ أَرْبَعَ أَوْ خَمْسَ حَرَكَاتٍ وَصْلًا.','A riwayar Hafs ana tsawaita shi motsi 4 ko 5 a ci gaba da karatu.'],[['ء','إِنَّا أَعْطَيْنَاكَ','lalle Mun ba ka'],['ء','قُوا أَنْفُسَكُمْ','ku kare kanku'],['ء','بِمَا أُنْزِلَ','da abin da aka saukar']]);
+E(L4,3,['يُمَدُّ سِتَّ حَرَكَاتٍ وُجُوبًا فِي الْوَصْلِ وَالْوَقْفِ، وَلَا خِلَافَ فِيهِ.','Ana tsawaita shi motsi 6 wajibi, a ci gaba da kuma tsayawa; babu sabani.'],[['ا','الطَّامَّةُ','babban bala’i'],['ا','الصَّاخَّةُ','babbar ƙara']]);
+E(L4,4,['يَجُوزُ مَدُّهُ حَرَكَتَيْنِ أَوْ أَرْبَعًا أَوْ سِتًّا عِنْدَ الْوَقْفِ، وَأَمَّا وَصْلًا فَيَعُودُ طَبِيعِيًّا.','Idan an tsaya ana iya tsawaita shi 2, 4 ko 6; a ci gaba da karatu sai ya koma madd na ɗabi’a.'],[['ا','الرَّحِيمِ','(idan an tsaya)'],['و','يَعْلَمُونَ','suna sani (idan an tsaya)']]);
+const X=(L,i,a,h,m=[])=>{L[i].x=[a,h];L[i].it.push(...m)};
+X(L4,5,'يُنْطَقُ بِلِينٍ وَسُهُولَةٍ مِنْ غَيْرِ كُلْفَةٍ، وَلَا يَكُونُ إِلَّا عِنْدَ الْوَقْفِ.','Ana furta shi a sauƙaka, kuma yana faruwa ne kawai idan an tsaya.',[['ي','قُرَيْشٍ','Kuraishawa'],['و','الْمَوْتِ','mutuwa']]);
+X(L4,6,'أَصْلُ «آمَنَ»: أَأْمَنَ، فَأُبْدِلَتِ الْهَمْزَةُ الثَّانِيَةُ حَرْفَ مَدٍّ، وَيُمَدُّ حَرَكَتَيْنِ بِلَا زِيَادَةٍ.','Asalin «آمَنَ» shi ne أَأْمَنَ; an canza hamza ta biyu zuwa harafin madd, motsi 2 ba ƙari.',[['ء','أُوتِيَ','an ba shi'],['ء','آدَمَ','Adamu']]);
+X(L4,7,'تُوصَلُ الْهَاءُ بِوَاوٍ بَعْدَ الضَّمِّ وَبِيَاءٍ بَعْدَ الْكَسْرِ لَفْظًا، وَتُمَدُّ حَرَكَتَيْنِ.','Ana haɗa ha da waw bayan damma ko ya bayan kasra a furta, motsi 2.',[['هـ','إِنَّهُ هُوَ','lalle shi'],['هـ','عِنْدَهُ عِلْمُ','a wurinsa akwai ilimin']]);
+X(L4,8,'تُمَدُّ مِثْلَ الْمَدِّ الْمُنْفَصِلِ أَرْبَعَ أَوْ خَمْسَ حَرَكَاتٍ.','Ana tsawaita ta kamar madd munfasil, motsi 4 ko 5.');
+X(L4,9,'سُمِّيَ فَرْقِيًّا لِأَنَّهُ يَفْرُقُ بَيْنَ الِاسْتِفْهَامِ وَالْخَبَرِ، وَهُوَ قَلِيلٌ فِي الْقُرْآنِ.','Ana kiransa farqi domin yana bambanta tambaya da labari; kaɗan ne a Alƙur’ani.');
+X(L5,0,'يَخْرُجُ هَوَاءُ الصَّوْتِ مِنَ الْجَوْفِ: الْأَلِفُ بَعْدَ فَتْحٍ، وَالْوَاوُ بَعْدَ ضَمٍّ، وَالْيَاءُ بَعْدَ كَسْرٍ.','Iskar sauti tana fita daga ramin baki: alif bayan fatha, waw bayan damma, ya bayan kasra.');
+X(L5,1,'اِحْفَظْ تَرْتِيبَهَا مِنَ الْأَبْعَدِ: «ءهـ» ثُمَّ «عح» ثُمَّ «غخ».','Ka haddace tsarin daga mafi nesa: «ءهـ» sannan «عح» sannan «غخ».');
+X(L5,2,'مِنْ أَقْصَاهُ: ق ك. مِنْ وَسَطِهِ: ج ش ي. مِنْ حَافَّتِهِ: ض. مِنْ طَرَفِهِ: ل ن ر، ثُمَّ ط د ت، ثُمَّ ص ز س، ثُمَّ ظ ذ ث.','Daga bayan harshe: ق ك; tsakiya: ج ش ي; gefe: ض; ƙarshe: ل ن ر, ط د ت, ص ز س, ظ ذ ث.');
+X(L5,3,'الْفَاءُ: بَاطِنُ الشَّفَةِ السُّفْلَى مَعَ أَطْرَافِ الثَّنَايَا الْعُلْيَا. وَالْوَاوُ وَالْبَاءُ وَالْمِيمُ: مِنَ الشَّفَتَيْنِ.','ف: leɓe na ƙasa da haƙoran sama; و ب م: daga leɓɓa biyu.');
+X(L6,0,'وَتُفَخَّمُ أَيْضًا إِذَا كَانَتْ سَاكِنَةً بَعْدَ فَتْحٍ أَوْ ضَمٍّ، مِثْلُ: أَرْسَلَ، قُرْآنٌ.','Ana kauɗata ta kuma idan sakinah ce bayan fatha ko damma.',[['ر','قُرْآنٌ','Alƙur’ani'],['ر','الْأَرْضِ','ƙasa'],['ر','رَحْمَةٌ','rahama']]);
+X(L6,1,'يَكُونُ اللِّسَانُ خَفِيفًا مُنْخَفِضًا فَيَخْرُجُ الصَّوْتُ رَقِيقًا.','Harshe yana sakewa ya sauka, sauti ta fita siriri.',[['ر','رِزْقٌ','arziki'],['ر','الرِّجَالُ','mazaje']]);
+X(L7,0,'يَسْتَوِي ذَلِكَ مَعَ كُلِّ فَتْحَةٍ أَوْ ضَمَّةٍ قَبْلَ لَفْظِ الْجَلَالَةِ.','Haka yake bayan kowace fatha ko damma kafin sunan Allah.',[['ل','وَاللَّهُ عَلِيمٌ','Allah Masani ne'],['ل','إِنَّ اللَّهَ','lalle Allah']]);
+X(L7,1,'وَمِثْلُهُ: بِسْمِ اللَّهِ، الْحَمْدُ لِلَّهِ، قُلِ اللَّهُمَّ.','Haka kuma: بِسْمِ اللَّهِ، الْحَمْدُ لِلَّهِ، قُلِ اللَّهُمَّ.',[['ل','الْحَمْدُ لِلَّهِ','godiya ta Allah ce'],['ل','قُلِ اللَّهُمَّ','ka ce: ya Allah']]);
+X(L8,0,'يَرْتَفِعُ أَقْصَى اللِّسَانِ نَحْوَ الْحَنَكِ فَيَمْتَلِئُ الْفَمُ بِصَوْتِ الْحَرْفِ.','Bayan harshe yana tashi zuwa sama, baki ya cika da sautin harafin.');
+X(L8,1,'جَرَيَانُ النَّفَسِ مَعَ الْحَرْفِ لِضَعْفِ الِاعْتِمَادِ عَلَى مَخْرَجِهِ.','Numfashi yana ci gaba da fita saboda rauni a makwafar harafin.');
+X(L8,2,'يَنْحَبِسُ الصَّوْتُ فَلَا يَجْرِي لِقُوَّةِ الِاعْتِمَادِ.','Sauti yana tsayawa saboda ƙarfin makwafar.');
+X(L9,0,'م: يَجِبُ الْوَقْفُ لِئَلَّا يَتَغَيَّرَ الْمَعْنَى. ط: الْوَقْفُ حَسَنٌ. قلى: الْوَقْفُ أَوْلَى.','مـ: tsayawa wajibi don ma’ana ta kasance daidai; ط: tsayawa yana da kyau; قلى: tsayawa ya fi.');
+X(L9,1,'ج: الْوَقْفُ وَالْوَصْلُ سَوَاءٌ. ز: يَجُوزُ الْوَقْفُ وَالْوَصْلُ أَوْلَى. صلى: الْوَصْلُ أَوْلَى. وَعَلَامَةُ ∴ (الْمُعَانَقَةُ): يُوقَفُ عَلَى أَحَدِ الْمَوْضِعَيْنِ لَا عَلَيْهِمَا مَعًا.','ج: duka biyun daidai ne; ز: ana iya tsayawa amma ci gaba ya fi; صلى: ci gaba ya fi. Alamar ∴ (mu’anaqah): ka tsaya a ɗaya daga cikin wurare biyu, ba duka ba.',[['∴','∴','tsaya a ɗaya daga biyun']]);
+X(L9,2,'إِنِ اضْطُرَّ الْقَارِئُ لِلْوَقْفِ لِضِيقِ نَفَسٍ رَجَعَ إِلَى كَلِمَةٍ قَبْلَهَا ثُمَّ ابْتَدَأَ.','Idan mai karatu ya tsaya don ƙuncewar numfashi, ya koma kalma ta baya ya sake farawa.');
+X(L10,0,'إِذَا كَانَ الْأَوَّلُ حَرْفَ مَدٍّ لَمْ يُدْغَمْ، مِثْلُ: فِي يَوْمٍ.','Idan na farko harafin madd ne ba a yin idgam, misali: فِي يَوْمٍ.',[['د','وَقَدْ دَخَلُوا','sun shiga'],['ل','قُلْ لَهُمْ','ka ce musu']]);
+X(L10,1,'الْأَزْوَاجُ: (ت د ط)، (ذ ظ ث)، (ب م).','Ma’aurata: (ت د ط)، (ذ ظ ث)، (ب م).',[['ب','ارْكَبْ مَعَنَا','hau tare da mu'],['ذ','إِذْ ظَلَمُوا','lokacin da suka zalunci']]);
+X(L10,2,'فِي «قُلْ رَبِّ» تُدْغَمُ اللَّامُ فِي الرَّاءِ بِلَا غُنَّةٍ.','A «قُلْ رَبِّ» lam tana haɗuwa da ra ba ghunnah.');
+X(L11,0,'وَأَمْثِلَةٌ أُخْرَى: اُخْرُجْ، اُسْجُدُوا.','Wasu misalai: اُخْرُجْ، اُسْجُدُوا.',[['ا','اُخْرُجْ','ka fita'],['ا','اُسْجُدُوا','ku yi sujada']]);
+X(L11,1,'وَفِي الْأَسْمَاءِ: اِبْنٌ، اِثْنَانِ. وَفِي الْأَفْعَالِ: اِضْرِبْ.','A sunaye: اِبْنٌ، اِثْنَانِ. A aikatau: اِضْرِبْ.',[['ا','اِبْنٌ','ɗa'],['ا','اِثْنَانِ','biyu'],['ا','اِضْرِبْ','ka bugi']]);
+X(L11,2,'تُفْتَحُ مَعَ «أَلْ» التَّعْرِيفِ.','Ana buɗe ta da fatha idan «أَلْ» ce.',[['ا','الْأَرْضِ','ƙasa'],['ا','الْقُرْآنِ','Alƙur’ani']]);
+X(L12,1,'حَرْفٌ بَيْنَ الشِّدَّةِ وَالرَّخَاوَةِ، لَا يَنْحَبِسُ كُلِّيًّا وَلَا يَجْرِي كُلِّيًّا.','Harafi tsakanin tsayawa da gudana: ba ya tsayawa gaba ɗaya, ba ya gudana gaba ɗaya.');
+X(L12,2,'يَجْرِي الصَّوْتُ مَعَهَا لِضَعْفِ الِاعْتِمَادِ.','Sauti yana gudana tare da su saboda rauni a makwafar.');
+X(L13,0,'يَنْطَبِقُ اللِّسَانُ عَلَى الْحَنَكِ الْأَعْلَى فَيُحْصَرُ الصَّوْتُ بَيْنَهُمَا.','Harshe yana mannewa da sama, sauti yana kamuwa a tsakaninsu.');
+X(L13,1,'يَنْفَتِحُ مَا بَيْنَ اللِّسَانِ وَالْحَنَكِ فَيَخْرُجُ الصَّوْتُ بِسُهُولَةٍ.','Tsakanin harshe da sama yana buɗewa, sauti yana fita cikin sauƙi.');
+let R=L1,LI=0;
+function sel(i){LI=i;R=LS[i].R;Q=null;render()}
+function picker(){return `<div class="lp">${LS.map((l,i)=>`<button class="${i==LI?'on':''}" onclick="sel(${i})">${i+1}. ${l.ha}</button>`).join('')}</div>`}
+const S=load(); let tab='learn', Q=null;
+function load(){try{const j=JSON.parse(localStorage.getItem('tj1')||'{}');return{done:j.done||{},best:(j.best&&typeof j.best==='object')?j.best:{}}}catch(e){return{done:{},best:{}}}}
+function save(){try{localStorage.setItem('tj1',JSON.stringify({done:S.done,best:S.best}))}catch(e){}}
+const v=document.getElementById('v');
+function go(t){tab=t;if(t==='quiz'&&!Q)startQ();render()}
+function mark(k){S.done[k]=1;save();render()}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function learn(){
+let h=LI?LS[LI].intro:`<div class="card"><h2>Ma’ana | التَّعْرِيفُ</h2>
+<p class="ar"><b>النُّونُ السَّاكِنَةُ:</b> نُونٌ خَالِيَةٌ مِنَ الْحَرَكَةِ، تَثْبُتُ لَفْظًا وَخَطًّا. مِثْلُ: مِنْ، يَنْهَوْنَ.</p>
+<p><b>Nun Sakinah:</b> nun ce marar motsi (sukuni), ana rubuta ta kuma ana furta ta, a tsakiya ko ƙarshen kalma.</p>
+<p class="ar"><b>التَّنْوِينُ:</b> نُونٌ سَاكِنَةٌ زَائِدَةٌ تَلْحَقُ آخِرَ الِاسْمِ لَفْظًا لَا خَطًّا. مِثْلُ: عَلِيمٌ.</p>
+<p><b>Tanwin:</b> ƙarin sautin nun a ƙarshen suna, ana furta shi amma ba a rubuta shi a matsayin harafi ba.</p>
+<p class="ar"><b>الْغُنَّةُ:</b> صَوْتٌ يَخْرُجُ مِنَ الْخَيْشُومِ، مِقْدَارُهَا حَرَكَتَانِ.</p>
+<p><b>Ghunnah:</b> sautin hanci, tsawonsa kamar motsi biyu.</p></div>`;
+R.forEach((r,i)=>{
+h+=`<details class="card" ${i==0?'open':''}><summary><span class="ar">${r.ar}</span><span>${r.ha}</span><b class="n">${r.n}</b></summary>
+<p class="ar">${r.dAr}</p><p>${r.dHa}</p>${r.x?`<div class="tip"><p class="ar">${r.x[0]}</p><p>${r.x[1]}</p></div>`:''}
+<div class="chips">${r.L.split(' ').map(c=>`<i class="c">${c}</i>`).join('')}</div><ul>`;
+r.it.forEach(x=>{h+=`<li><i class="c">${x[0]}</i><div><div class="ar" style="line-height:1.7">${x[1]}</div><div class="m">${x[2]}${x[3]=='g'?' · da ghunnah':x[3]=='n'?' · ba ghunnah':''}</div></div></li>`});
+h+=`</ul><button class="btn ${S.done[r.k]?'o':''}" onclick="mark('${r.k}')">${S.done[r.k]?'✓ An karanta':'Na gama karantawa'}</button></details>`});
+h+=`<p class="m" style="text-align:center">Ka nuna wannan ga ƙwararren malamin tajwidi kafin ka dogara da shi.</p>`;
+return h}
+function startQ(){
+const pool=[];R.forEach(r=>r.it.forEach(x=>pool.push({k:r.k,l:x[0],a:x[1],h:x[2]})));
+Q={list:shuffle(pool).slice(0,8),i:0,s:0,a:null}}
+function pick(k){if(Q.a)return;Q.a=k;if(k===Q.list[Q.i].k)Q.s++;render()}
+function next(){Q.i++;Q.a=null;if(Q.i>=Q.list.length&&Q.s>(S.best[LS[LI].id]||0)){S.best[LS[LI].id]=Q.s;save()}render()}
+function quiz(){
+if(Q.i>=Q.list.length)return `<div class="card" style="text-align:center"><h2>Sakamako</h2><p style="font-size:2rem;margin:4px">${Q.s} / ${Q.list.length}</p><p>${Q.s>=7?'Madalla!':Q.s>=5?'Da kyau, sake gwadawa zai ƙara maka.':'Koma darasin ka sake gwadawa.'}</p><button class="btn" onclick="Q=null;go('quiz')">Sake gwadawa</button></div>`;
+const q=Q.list[Q.i],rr=R.find(r=>r.k===q.k);
+let h=`<div class="card"><div class="m">Tambaya ${Q.i+1} / ${Q.list.length}</div><div class="bar"><div style="width:${Q.i/Q.list.length*100}%"></div></div>
+<p class="ar" style="text-align:center;margin:0">أَيُّ حُكْمٍ فِي:</p><p style="text-align:center;margin:0" class="m">Wane hukunci ne a cikin:</p><div class="q">${q.a}</div>`;
+R.forEach(r=>{const c=Q.a?(r.k===q.k?'ok':r.k===Q.a?'bad':''):'';h+=`<button class="opt ${c}" ${Q.a?'disabled':''} onclick="pick('${r.k}')"><span class="ar">${r.ar}</span><span>${r.ha}</span></button>`});
+if(Q.a){h+=`<p>${Q.a===q.k?'✓ Daidai.':'✗ Ba daidai ba.'} Harafin <i class="c">${q.l}</i> yana ƙarƙashin <b>${rr.ha}</b>. <span class="m">(${q.h})</span></p><button class="btn" onclick="next()">${Q.i+1>=Q.list.length?'Ga sakamako':'Na gaba'}</button>`}
+return h+'</div>'}
+function prog(){
+const AR=LS.flatMap(l=>l.R),d=AR.filter(r=>S.done[r.k]).length;
+return `<div class="card"><h2>Ci gaban ka</h2><p>Hukunce-hukuncen da ka karanta: <b>${d} / ${AR.length}</b></p><div class="bar"><div style="width:${d/AR.length*100}%"></div></div>
+<p>Mafi kyawun maki a jarrabawa:</p>${LS.map(l=>`<p style="margin:2px 0">${l.ha}: <b>${S.best[l.id]||0} / 8</b></p>`).join('')}
+<button class="btn o" onclick="if(confirm('Ka goge ci gaban?')){S.done={};S.best={};save();render()}">Goge ci gaba</button></div>`}
+function render(){
+v.innerHTML=(tab==='prog'?'':picker())+(tab==='learn'?learn():tab==='quiz'?quiz():prog());
+['learn','quiz','prog'].forEach(t=>document.getElementById('t-'+t).classList.toggle('on',t===tab));
+window.scrollTo(0,0)}
+render();
+</script>
+<script>if("serviceWorker" in navigator){addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script>
+</body>
+</html>
